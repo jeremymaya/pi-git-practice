@@ -4,7 +4,7 @@ import sys
 import email
 import smtplib
 
-def generate_alert_email(sender, recipient, subject, body, attachment_path):
+def generate_alert_email(sender, recipient, subject, body):
     message = email.message.EmailMessage()
     message["From"] = sender
     message["To"] = recipient
