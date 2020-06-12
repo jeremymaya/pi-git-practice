@@ -31,10 +31,8 @@ def check_disk_usage(disk):
     return free > 20
 
 def send_alert(subject):
-    sender = SENDER
-    recipient = RECIPIENT
-    body = "test"
-    message = emails.generate_alert_email(sender, recipient, subject, body)
+    body = "Check the system and resolve the issue"
+    message = emails.generate_alert_email(SENDER, RECIPIENT, subject, body)
     emails.send_email(message)
 
 def main(argv):
