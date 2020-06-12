@@ -1,8 +1,10 @@
-# Raspberry Pi Git Practice
+# Raspberry Pi OS
 
 Author: Kyungrae Kim
 
 This is a repository created from Raspberry Pi OS. I will be using this repository to become more familiar with Linux.
+
+---
 
 ## Monitoring Raspberry Pi OS
 
