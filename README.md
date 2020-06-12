@@ -13,7 +13,21 @@ Proactive monitoring of the system is crucial for ensuring uptime. Critial syste
 
 ### Core Temperature
 
-Core temperature of the Raspberry Pi is monitored using ```check_temperature``` method. If the core temperature rises above 80.0'C, the method sends an alsert email.
+Core temperature is monitored using ```check_temperature``` method. If the core temperature rises above 80.0'C, the method sends an alert email.
+
+### CPU Usage
+
+CPU usage is monitored using ```check_cpu_usage``` method. If the CPU usage is over 80%, the method sends an alert email.
+
+### Memory Usage
+
+Memory usage is monitored using ```check_memoery_usage``` method. If the available memory is less than 500MB, the method sends an alert email.
+
+### Disk Usage
+
+Disk usage is monitored using ```check_disk_usage``` method. If the available memory is less than 20%, the method sends an alert email.
+
+---
 
 ## Credits
 
