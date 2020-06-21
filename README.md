@@ -6,6 +6,20 @@ This is a repository created from Raspberry Pi OS. I will be using this reposito
 
 ---
 
+## Using Raspberry Pi OS Headless
+
+### Remote Access
+
+Raspberry Pi OS can be accessed remotely using [SSH (Secure Shell)](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md), which allows user to access the command line of a Raspberry Pi remotely from another computer or device on the same network.
+
+Refer to [Setting up a Raspberry Pi headless](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) in order to set up the Pi OS without a monitor or keyboard.
+
+### Remote Development using SSH
+
+Instead of using ```nano``` or other CLI based editors, [Visual Studio Code Remote - SSH extension](https://code.visualstudio.com/docs/remote/ssh) allows users to open a remote folder on any remote machine, virtual machine, or container with a running SSH server and take full advantage of VS Code's feature set.
+
+---
+
 ## Monitoring Raspberry Pi OS
 
 Proactive monitoring of the system is crucial for ensuring uptime. Critical system components will be monitored using the following scripts with ```cron``` which is scheduled to run ```system_health_check.py``` every hour.
