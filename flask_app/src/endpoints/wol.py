@@ -6,8 +6,31 @@ wol = Blueprint(name="wol", import_name=__name__)
 broadcast = ['192.168.1.255', '192.168.0.255']
 port = 9
 
-@wol.route('/wol', methods=['POST'])
+@wol.route('', methods=['POST'])
 def wake_on_lan():
+    """
+    ---
+    post:
+      description: Turns on a computer remotely
+      requestBody:
+        required: true
+        content:
+            application/json:
+                schema: InputSchema
+      responses:
+        '200':
+          description: call successful
+          content:
+            application/json:
+              schema: OutputSchema
+        '400':
+          description: call fail
+          content:
+            application/json:
+              schema: ErrorSchema
+      tags:
+          - wake on lan
+    """
     try:
         data = request.get_json()
         mac_address = data['mac_address']

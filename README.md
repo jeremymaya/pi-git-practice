@@ -80,3 +80,4 @@ Disk usage is monitored using ```check_disk_usage``` method. If the available me
 * [Github - Python Wake on LAN](https://gist.github.com/rschuetzler/8854764)
 * [Call Python script from bash with argument](https://stackoverflow.com/questions/14155669/call-python-script-from-bash-with-argument)
 * [Configuration Management on Raspberry Pi with Puppet](http://frederickvandenbosch.be/?p=1843)
+* [Developing RESTful APIs with Python and Flask](https://auth0.com/blog/developing-restful-apis-with-python-and-flask/)
