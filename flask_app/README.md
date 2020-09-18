@@ -20,7 +20,7 @@ This is a continued effort to complete a personal project started from the follo
 
 ----
 
-## Example
+### Example
 
 If you POST
 
@@ -76,7 +76,7 @@ The expected output upn suceess of the above command is:
 
 Alternatively, test the functionality of the endpoint running at <http://127.0.0.1:5000/api/docs/> by clicking the ```Try it out``` button.
 
-![Open API](assets/flask_app/open_api.png)
+![Open API](https://github.com/jeremymaya/raspberry-pi-os/blob/master/assets/open_api.png?raw=true)
 
 #### Production
 
@@ -119,7 +119,7 @@ Connections                   ttl     opn     rt1     rt5     p50     p90
                               0       0       0.00    0.00    0.00    0.00  
 ```
 
-#### Send a POST request with Google Assistant with IFTTT 
+#### Send a POST request with Google Assistant with IFTTT
 
 HTTP requst can be sent using Google Assistant by paring the assistant with Webhook on [If This Than This (IFTTT)](https://ifttt.com/).
 
