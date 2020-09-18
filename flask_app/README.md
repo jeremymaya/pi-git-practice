@@ -128,11 +128,11 @@ Create a new applet following [Integrating Google Home And IFTTT Webhooks](https
 For this example,
 
 1. Select "Say a simple phrase" as trigger
-2. Select Webhooks as action
-3. Select "POST" as Webhooks method
-4. Use `{"mac_address"" "XX:XX:XX:XX:XX:XX"}` as Body
-5. Use the ngrok URL + /api/v1/wol as URL
-6. Select "application/json" as Content Type
+2. Select "Webhooks" as action
+3. Select "POST" as method for the Webhooks
+4. Use `{"mac_address": "XX:XX:XX:XX:XX:XX"}` as Body for the Webhooks
+5. Use the ngrok URL + /api/v1/wol as URL for the Webhooks
+6. Select "application/json" as Content Type for the Webhooks
 
 ----
 
