@@ -76,7 +76,7 @@ The expected output upn suceess of the above command is:
 
 Alternatively, test the functionality of the endpoint running at <http://127.0.0.1:5000/api/docs/> by clicking the ```Try it out``` button.
 
-![Open API](assets/open_api.png)
+![Open API](assets/flask_app/open_api.png)
 
 #### Production
 
