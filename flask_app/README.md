@@ -13,7 +13,7 @@ This is a simple RESTful API built using Flask. The application turns on a Wake-
 
 This README contains extra steps to use Google Assistant to communicate with the endpoint running on a local server.
 
-This is a continued effort to complete a personal project started from the following repositories: 
+This is a continued effort to complete a personal project started from the following repositories:
 
 * <https://github.com/jeremymaya/google-home-wol>
 * <https://github.com/jeremymaya/google-home-netlify>
