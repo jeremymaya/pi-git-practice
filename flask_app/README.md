@@ -106,8 +106,17 @@ After following the [Setup & Installation](https://dashboard.ngrok.com/get-start
 
 Above command should output the following which indicates a public URL of the local server.
 
-```text
+```bash
+Session Status                online
+Account                       Kyungrae Kim (Plan: Free)
+Version                       2.3.35
+Region                        United States (us)
+Web Interface                 http://127.0.0.1:XXXX
+Forwarding                    http://XXXX.ngrok.io -> http://localhost:8600
+Forwarding                    https://XXXX.ngrok.io -> http://localhost:8600
 
+Connections                   ttl     opn     rt1     rt5     p50     p90
+                              0       0       0.00    0.00    0.00    0.00  
 ```
 
 #### Send a POST request with Google Assistant with IFTTT 
@@ -116,7 +125,7 @@ HTTP requst can be sent using Google Assistant by paring the assistant with Webh
 
 Create a new applet following [Integrating Google Home And IFTTT Webhooks](https://www.francoisdelport.com/2018/04/23/integrating-google-home-and-ifttt-webhooks/).
 
-For this example, 
+For this example,
 
 1. Select "Say a simple phrase" as trigger
 2. Select Webhooks as action
