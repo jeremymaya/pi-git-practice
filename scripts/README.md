@@ -27,7 +27,7 @@ Memory usage is monitored using ```check_memoery_usage``` method. If the availab
 
 Disk usage is monitored using ```check_disk_usage``` method. If the available memory is less than 20%, the method sends an alert email.
 
----
+----
 
 ## Credits
 

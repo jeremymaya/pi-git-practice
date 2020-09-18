@@ -13,7 +13,7 @@ This is a simple RESTful API built using Flask. The application turns on a Wake-
 
 This README contains extra steps to use Google Assistant to communicate with the endpoint running on a local server.
 
-This is a continued effort to complete a personal project started from the following repositories: 
+This is a continued effort to complete a personal project started from the following repositories:
 
 * <https://github.com/jeremymaya/google-home-wol>
 * <https://github.com/jeremymaya/google-home-netlify>
@@ -131,7 +131,8 @@ For this example,
 2. Select Webhooks as action
 3. Select "POST" as Webhooks method
 4. Use `{"mac_address"" "XX:XX:XX:XX:XX:XX"}` as Body
-5. Use the ngrok URL + `/api/va/wol`
+5. Use the ngrok URL + /api/v1/wol as URL
+6. Select "application/json" as Content Type
 
 ----
 
