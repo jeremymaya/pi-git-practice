@@ -9,11 +9,11 @@ This is a repository created from Raspberry Pi OS. I will be using this reposito
 ## Table of Contents
 
 * [Server Management](/scripts)
-    * System Health Check
-* [API Web Application](/flask_app)
-    * Turn on WoL enabled computer with Google Assistant
-* [Configuration Management with Puppet](#)
-    * _Coming Soon_
+  * System Health Check
+* [Flask Application](/flask_app)
+  * Turn on WoL enabled computer with Google Assistant
+* [Configuration Management with Puppet](/#)
+  * _Coming Soon_
 
 ---
 

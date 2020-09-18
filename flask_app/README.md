@@ -131,7 +131,8 @@ For this example,
 2. Select Webhooks as action
 3. Select "POST" as Webhooks method
 4. Use `{"mac_address"" "XX:XX:XX:XX:XX:XX"}` as Body
-5. Use the ngrok URL + `/api/va/wol`
+5. Use the ngrok URL + /api/v1/wol as URL
+6. Select "application/json" as Content Type
 
 ----
 
