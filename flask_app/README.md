@@ -90,11 +90,11 @@ uwsgi --ini app.ini --need-app
 
 ### Turn On the Computer with Google Assistant
 
-Now that the computer can be turned on with a POST reqeust, let's integerate Google Assistant and Webhooks so it can be turned on remotely.
+Now that the computer can be turned on with a POST request, let's integrate Google Assistant and Webhooks so it can be turned on remotely.
 
 #### Expose the Local Server with ngrok
 
-For Google Assistant to communicate with the endpoint running on the local server, the server neeeds to be exposed with a public URL.
+For Google Assistant to communicate with the endpoint running on the local server, the server nseeds to be exposed with a public URL.
 
 There are different ways to achieve this. This example uses [ngrok](https://ngrok.com/) to expose the local server.
 
@@ -104,7 +104,7 @@ After following the [Setup & Installation](https://dashboard.ngrok.com/get-start
 ./ngrok http 8600
 ```
 
-Above command should output the following which indicates a public URL of the local server.
+The above command should output the following which indicates a public URL of the local server.
 
 ```bash
 Session Status                online
@@ -121,7 +121,7 @@ Connections                   ttl     opn     rt1     rt5     p50     p90
 
 #### Send a POST request with Google Assistant with IFTTT
 
-HTTP requst can be sent using Google Assistant by paring the assistant with Webhook on [If This Than This (IFTTT)](https://ifttt.com/).
+HTTP request can be sent using Google Assistant by pairing with Webhook on [If This Than This (IFTTT)](https://ifttt.com/).
 
 Create a new applet following [Integrating Google Home And IFTTT Webhooks](https://www.francoisdelport.com/2018/04/23/integrating-google-home-and-ifttt-webhooks/).
 
@@ -133,6 +133,8 @@ For this example,
 4. Use `{"mac_address": "XX:XX:XX:XX:XX:XX"}` as Body for the Webhooks
 5. Use the ngrok URL + /api/v1/wol as URL for the Webhooks
 6. Select "application/json" as Content Type for the Webhooks
+
+![IFTTT Applet](https://github.com/jeremymaya/raspberry-pi-os/blob/master/assets/ifttt.png?raw=true)
 
 ----
 
