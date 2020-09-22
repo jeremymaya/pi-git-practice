@@ -49,7 +49,7 @@ git clone https://github.com/jeremymaya/raspberry-pi-os.git
 Install the dependencies:
 
 ```bash
-python3 -m pip install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 #### Development Mode
